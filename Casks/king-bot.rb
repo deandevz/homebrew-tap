@@ -1,6 +1,6 @@
 cask "king-bot" do
-  version "0.2.4"
-  sha256 "bd47d19993827f9a34ad6f7e9d449e86b258fe980f0a715813f14026526c7d6f"
+  version "0.2.5"
+  sha256 "092d3c623405118dffc964cd3e9cf30d695670dfbdfbca114a32657dcd7fd4fe"
 
   url "https://bot.kingdeanprod.com/downloads/mac/King-Bot-#{version}-arm64-mac.zip"
   name "King Bot"
