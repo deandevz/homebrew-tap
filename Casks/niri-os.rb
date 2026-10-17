@@ -1,6 +1,6 @@
 cask "niri-os" do
-  version "0.1.0"
-  sha256 "b3461c306a924bd59be49d4c163a0e92ce7113e22124f05bb8b8594525fad9a7"
+  version "0.1.1"
+  sha256 "d2f8e64184b6d6223ef85e43417fb079c836a69fad72b10ac67b1b5c8854d7a9"
 
   url "https://github.com/deandevz/niri-os-releases/releases/download/v#{version}/NiriOS-#{version}.zip"
   name "NiriOS"
@@ -10,7 +10,7 @@ cask "niri-os" do
   # o próprio app se atualiza (confere a assinatura e pergunta antes); o brew só instala
   auto_updates true
   depends_on arch: :arm64
-  depends_on macos: :tahoe
+  depends_on macos: ">= :sequoia"
 
   app "NiriOS.app"
 
