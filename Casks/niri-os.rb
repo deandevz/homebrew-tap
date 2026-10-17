@@ -1,6 +1,6 @@
 cask "niri-os" do
-  version "0.1.1"
-  sha256 "d2f8e64184b6d6223ef85e43417fb079c836a69fad72b10ac67b1b5c8854d7a9"
+  version "0.1.2"
+  sha256 "aa9c108a265a727c53861e7e6abe0512de473edee30c5692f91ecf0fd07de942"
 
   url "https://github.com/deandevz/niri-os-releases/releases/download/v#{version}/NiriOS-#{version}.zip"
   name "NiriOS"
