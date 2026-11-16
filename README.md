@@ -13,7 +13,7 @@ na instalação; sem isso o macOS bloqueia a primeira abertura.
 
 ## Puxa
 
-Baixador de vídeos do YouTube nativo (macOS 26 ou mais novo, Apple Silicon ou Intel). Instala junto o `yt-dlp`, o `ffmpeg` e o `deno`.
+Baixador de vídeos do YouTube nativo (macOS 14 ou mais novo, Apple Silicon ou Intel). Instala junto o `yt-dlp`, o `ffmpeg` e o `deno`.
 
 ```sh
 brew install --cask deandevz/tap/puxa

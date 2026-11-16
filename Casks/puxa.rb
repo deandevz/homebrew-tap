@@ -1,6 +1,6 @@
 cask "puxa" do
-  version "1.1"
-  sha256 "4ce6a8287e3274786598c843b9a375ebee964565071e63213ff99bd6de82eee2"
+  version "1.2"
+  sha256 "efbfe789aa0b0475b82c02874323fef52fbf1b61b88231e93bfe9bd6cdc68c32"
 
   url "https://github.com/deandevz/puxa-releases/releases/download/v#{version}/Puxa-#{version}.zip"
   name "Puxa"
@@ -9,7 +9,7 @@ cask "puxa" do
 
   # o próprio app se atualiza (confere a assinatura e pergunta antes); o brew só instala
   auto_updates true
-  depends_on macos: ">= :tahoe"
+  depends_on macos: ">= :sonoma"
   depends_on formula: ["yt-dlp", "ffmpeg", "deno"]
 
   app "Puxa.app"
