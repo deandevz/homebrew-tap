@@ -10,3 +10,13 @@ Depois da instalação o app se atualiza sozinho. O `brew upgrade` não mexe nel
 
 O app ainda não tem assinatura de Developer ID nem notarização da Apple. Por isso o cask tira a quarentena do app
 na instalação; sem isso o macOS bloqueia a primeira abertura.
+
+## Puxa
+
+Baixador de vídeos do YouTube nativo (macOS 26 ou mais novo, Apple Silicon ou Intel). Instala junto o `yt-dlp`, o `ffmpeg` e o `deno`.
+
+```sh
+brew install --cask deandevz/tap/puxa
+```
+
+Depois da instalação o app se atualiza sozinho (`auto_updates true`).
