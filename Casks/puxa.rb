@@ -9,7 +9,7 @@ cask "puxa" do
 
   # o próprio app se atualiza (confere a assinatura e pergunta antes); o brew só instala
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
   depends_on formula: ["yt-dlp", "ffmpeg", "deno"]
 
   app "Puxa.app"
