@@ -1,6 +1,6 @@
 cask "puxa" do
-  version "1.3"
-  sha256 "b177ed962c167bc373068b6f6e0e6abf3b5bf0a12e3ac0e05bede2ae0ab1970e"
+  version "1.4"
+  sha256 "be09880d4eb98c355925ddf9720021ad696a9a16bf9ac89b6a840ff28629ea6c"
 
   url "https://github.com/deandevz/puxa-releases/releases/download/v#{version}/Puxa-#{version}.zip"
   name "Puxa"
